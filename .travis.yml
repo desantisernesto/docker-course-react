@@ -12,10 +12,10 @@ script:
 deploy: 
   provider: elasticbeanstalk
   region: "us-east-1"
-  app: "docker-couse-react"
+  app: "docker-course-react"
   env: "Dockercoursereact-env"
   bucket_name: "elasticbeanstalk-us-east-1-616719896171"
-  bucket_path: "docker-couse-react"
+  bucket_path: "docker-course-react"
   on:
     branch: main
   access_key_id: "$AWS_ACCESS_KEY"
